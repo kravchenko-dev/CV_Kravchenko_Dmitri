@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #666666;
+}
+
+.wrapper {
+    width: 1280px;
+    height: 1150px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+.personal__block {
+    width: 300px;
+    height: 100%;
+    background: #434A54;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.personal__photo {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.personal__photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.personal__info,
+.personal__info__languages {
+    margin: 30px 0 0 30px;
+}
+
+.personal__info li,
+.personal__info__languages li {
+    margin: 10px 0 0 0;
+}
+
+.personal__info hr,
+.personal__info__languages hr {
+    margin: 15px 0 15px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+}
+
+.personal__block a {
+    color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main */
+
+.main__block__wrapper {
+    margin: 0 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main__block {
+    width: 980px;
+    display: inline-block;
+    float: right;
+}
+
+.main__block p {
+    padding-top: 5px;
+}
+
+h1 {
+    padding: 20px 0 20px 0;
+    font-size: 35px;
+}
+
+.main__block__header p {
+    padding: 10px 0 0 0;
+}
+
+.main__block__wrapper h2 {
+    padding: 15px 0 10px 0;
+}
+
+.main__block__wrapper h3 {
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.main__block__skills li {
+    font-weight: 600;
+    padding-top: 10px;
+}
+
+.experiance__firm {
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+}
+
+.date {
+    float: right;
+    margin-top: 10px;
+}
+
+.main__block__worckExample li {
+    padding-top: 10px;
+}
