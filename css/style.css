@@ -1,125 +1,132 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body, html {
-    background: #666666;
-    height: 100%;
+html {
+  background-color: #666666;
+  min-height: 100%;
+  height: 100%;
 }
 
 .wrapper {
-    width: 1280px;
-    height: 100%;
-    margin: 0 auto;
-    background: #ffffff;
+  width: 1280px;
+  height: 1130px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #434a54;
+}
+
+.personal__block__wrapper {
+  display: inline-flex;
+  height: 100%;
+  width: 300px;
 }
 
 .personal__block {
-    width: 300px;
-    height: 100%;
-    background: #434A54;
-    color: #ffffff;
-    display: inline-block;
+  color: #ffffff;
 }
 
 .personal__photo {
-    text-align: center;
-    padding-top: 40px;
-
+  text-align: center;
+  padding-top: 40px;
 }
 
 .personal__photo img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 .personal__info,
 .personal__info__languages {
-    margin: 30px 0 0 30px;
+  margin: 30px 0 0 30px;
 }
 
 .personal__info li,
 .personal__info__languages li {
-    margin: 10px 0 0 0;
+  margin: 10px 0 0 0;
 }
 
 .personal__info hr,
 .personal__info__languages hr {
-    margin: 15px 0 15px 0;
+  margin: 15px 0 15px 0;
 }
 
 h4 {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .personal__block a {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #FFE019;
+  color: #ffe019;
 }
 
 /* Main */
 
 .main__block__wrapper {
-    margin: 0 30px;
-    font-family: 'Roboto', sans-serif;
+  margin: 0 30px;
+  font-family: 'Roboto', sans-serif;
+  display: block;
 }
 
 .main__block {
-    width: 980px;
-    display: inline-block;
-    float: right;
+  width: 980px;
+  display: inline-flex;
+  position: absolute;
+  left: 300px;
+  background-color: #ffffff;
 }
 
 .main__block p {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 h1 {
-    padding: 20px 0 20px 0;
-    font-size: 35px;
+  padding: 20px 0 20px 0;
+  font-size: 35px;
 }
 
 .main__block__header p {
-    padding: 10px 0 0 0;
+  padding: 10px 0 0 0;
 }
 
 .main__block__wrapper h2 {
-    padding: 15px 0 10px 0;
+  padding: 15px 0 10px 0;
 }
 
 .main__block__wrapper h3 {
-    padding-top: 10px;
-    display: inline-block;
+  padding-top: 10px;
+  display: inline-block;
 }
 
 .main__block__skills li {
-    font-weight: 600;
-    padding-top: 10px;
+  font-weight: 600;
+  padding-top: 10px;
 }
 
 .experiance__firm {
-    font-family: 'Raleway', sans-serif;
-    font-style: italic;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
 }
 
 .date {
-    float: right;
-    margin-top: 10px;
+  float: right;
+  margin-top: 10px;
 }
 
 .main__block__worckExample li {
-    padding-top: 10px;
+  padding-top: 10px;
 }
