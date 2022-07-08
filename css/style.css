@@ -3,13 +3,14 @@
     padding: 0;
 }
 
-body {
+body, html {
     background: #666666;
+    height: 100%;
 }
 
 .wrapper {
     width: 1280px;
-    height: 1150px;
+    height: 100%;
     margin: 0 auto;
     background: #ffffff;
 }
@@ -63,6 +64,10 @@ li {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    color: #FFE019;
 }
 
 /* Main */
