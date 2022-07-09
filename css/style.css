@@ -12,7 +12,7 @@ html {
 
 .wrapper {
   width: 1280px;
-  height: 1130px;
+  height: 1150px;
   margin: 0 auto;
   position: relative;
   background-color: #434a54;
@@ -85,8 +85,10 @@ a:hover {
 .main__block {
   width: 980px;
   display: inline-flex;
+  /* float: right; */
   position: absolute;
   left: 300px;
+  z-index: 9999;
   background-color: #ffffff;
 }
 
@@ -125,6 +127,10 @@ h1 {
 .date {
   float: right;
   margin-top: 10px;
+}
+
+.main__block__worckExample {
+  margin: 0 0 20px 0;
 }
 
 .main__block__worckExample li {
